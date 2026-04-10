@@ -2,7 +2,7 @@
 
 Ein minimalistischer, vollständiger Raytracer in C#, der komplett in eine einzige Datei (`Program.cs`) passt. Dieses Projekt demonstriert die grundlegenden Konzepte der Computergrafik und des Raytracings, ohne dass externe Grafikbibliotheken benötigt werden.
 
-## 🌟 Features
+## Features
 
 * **Geometrie:** Rendert Kugeln (Spheres) und eine unendliche Ebene (Plane).
 * **Beleuchtung (Phong-Modell):** Unterstützt diffuses Licht, spekulare Glanzpunkte (Spiegelungen auf der Oberfläche) und weiches Umgebungslicht (Ambient).
@@ -11,7 +11,7 @@ Ein minimalistischer, vollständiger Raytracer in C#, der komplett in eine einzi
 * **Materialien:** Prozedurales Schachbrettmuster für den Boden und individuell einstellbare Farben und Reflexionsgrade für die Kugeln.
 * **PPM-Export:** Schreibt das gerenderte Bild direkt als `.ppm`-Datei (Portable Pixmap), was plattformunabhängig und leicht zu verstehen ist.
 
-## 🚀 Ausführen des Projekts
+## Ausführen des Projekts
 
 Stelle sicher, dass du das [.NET SDK](https://dotnet.microsoft.com/download) auf deinem System installiert hast.
 
@@ -28,14 +28,14 @@ Stelle sicher, dass du das [.NET SDK](https://dotnet.microsoft.com/download) auf
     ```
 5.  Nach wenigen Sekunden sollte in der Konsole die Meldung `Fertig! Bild gespeichert als 'output.ppm'.` erscheinen.
 
-## 🖼️ Wie öffne ich die .ppm-Datei?
+## Wie öffne ich die .ppm-Datei?
 
 Das PPM-Format (Portable Pixmap) ist ein unkomprimiertes Text-Bildformat. 
 * **Windows:** [IrfanView](https://www.irfanview.com/) ist hervorragend geeignet, um `.ppm`-Dateien blitzschnell zu öffnen. GIMP oder Photoshop funktionieren ebenfalls.
 * **macOS / Linux:** Viele integrierte Bildbetrachter (wie `Preview` auf dem Mac) oder Programme wie GIMP öffnen diese Dateien nativ.
 * **Online:** Du kannst auch nach einem "PPM to PNG Converter online" suchen und die Datei im Browser umwandeln lassen.
 
-## 🛠️ Eigene Experimente
+## Eigene Experimente
 
 Du kannst den Code leicht anpassen, um zu lernen, wie der Raytracer funktioniert:
 
